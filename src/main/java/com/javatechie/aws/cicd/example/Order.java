@@ -16,13 +16,7 @@ public class Order {
     private int quantity;
     private long price;
     
-    public Order(int id, String name, int quantity, long price) {
-		super();
-		this.id = id;
-		this.name = name;
-		this.quantity = quantity;
-		this.price = price;
-	}
+   
 	
     
     public int getId() {
